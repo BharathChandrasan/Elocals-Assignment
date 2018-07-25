@@ -1,0 +1,14 @@
+{
+  "name": "elocals",
+  "version": "1.0.0",
+  "description": "Assignment for Elocals",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bharath c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

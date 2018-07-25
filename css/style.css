@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 0;
+    color: #fff;
+    
+       background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.footer a {
+    text-decoration: none;
+    color: red;
+    transition: all 0.35s ease-in;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
+    -o-transition: all 0.35s ease-in;
+    -ms-transition: all 0.35s ease-in;
+}
+.footer a:hover{
+    color: #fff;
+}
+a:focus,
+a:hover,
+a:active {
+    outline: medium none !important;
+}
+
+.welcomediv-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-size: 35px;
+color: #fff;
+}
+.welcomediv-container h3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.welcomediv-container h6 {
+    font-size: 20px;
+}
+@media(min-width:240px) and (max-width:767px){
+    .welcomediv-container {
+    font-size: 30px;
+    line-height: 35px;
+    }
+}
+@media(min-width:240px) and (max-width:479px){
+    .footer {
+    padding: 10px 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+}
